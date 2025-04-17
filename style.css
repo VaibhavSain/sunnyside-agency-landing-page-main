@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 220rem;
+    width: 100%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header {
+    background: #3ebfff;
+    height: 40rem;
+    overflow-y: hidden;
+}
+.header .logo {
+    height: 2rem;
+    position: absolute;
+    z-index: 10;
+    left: 2rem;
+    top: 2rem;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    z-index: 10;
+    font-size: 18px;
+    font-weight:400;
+    color: white;
+    position: absolute;
+    right: 14rem;
+    top: 2rem;
+}
+.nav:hover {
+    cursor: pointer;
+}
+main {
+    overflow: hidden;
+}
+.btn {
+    background-color: #ffffff;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    z-index: 10;
+    border: none;
+    font-weight: bold;
+    position: absolute;
+    font-size: 14px;
+    right: 6rem;
+    top: 1.40rem;
+    border-radius: 25px;
+    outline: none;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color:hsl(200, 68%, 65%) ;
+    color: white;
+}
+.heading {
+    text-transform: uppercase;
+    color: white;
+    font-size:4rem;
+    position: absolute;
+    top: 10rem;
+    z-index: 10;
+    left: 24rem;
+}
+.img {
+    position: absolute;
+    top: 0;
+    height: 40rem;
+    left: 5.50rem;
+}
+.arrow {
+    position: absolute;
+    top: 18rem;
+    left: 40.50rem;
+}
+.div1 {
+    position: absolute;
+    top: 40rem;
+    left: 0;
+    height: 30rem;
+    background-color: #fffbf8;
+    width: 43rem;
+}
+.tran {
+    position: absolute;
+    top: 40rem;
+    right: 0;
+    height: 30rem;
+    width: 43rem;
+
+}
+.heading2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #25313e;
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
+}
+.para {
+    font-size: 14px;
+    line-height: 2rem;
+    font-weight: 600;
+    position: absolute;
+    top: 16rem;
+    left:8.30rem;
+    color: rgba(0, 0,0, 0.7);
+}
+.para2 {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 24rem;
+    text-decoration:  underline 5px rgba(247, 168, 20,0.4);
+
+    left: 8.40rem;
+}
+
+.stand {
+    position: absolute;
+    top: 70rem;
+    left: 0;
+    height: 30rem;
+    width: 42.50rem;
+}
+.div2 {
+    position: absolute;
+    top: 70rem;
+    right: 0;
+    height: 30rem;
+    background-color: #fffbf8;
+    width: 43rem;
+}
+.sugar {
+    position: absolute;
+    top: 100rem;
+    left: 0;
+    height: 32rem;
+    width: 42.50rem;
+}
+.photo {
+    position: absolute;
+    top: 100rem;
+    right: 0;
+    height: 32rem;
+    width: 43rem;
+
+}
+.gra {
+    color: #26554b;
+    position: absolute;
+    top:119rem;
+    left: 14rem;
+    font-size: 28px;
+
+    font-weight: bolder;
+}
+.vra {
+    color: #26554b;
+    position: absolute;
+    top:119rem;
+    right: 15rem;
+    font-size: 28px;
+    z-index: 10;
+    font-weight: bolder;
+}
+.pa1 {
+    position: absolute;
+    color: #387566;
+    top: 122rem;
+    left: 9.80rem;
+    font-size: 16px;
+    line-height: 1.50rem;
+}
+.pa2 {
+    position: absolute;
+    top: 122rem;
+    right: 8rem;
+    z-index: 10;
+    font-size: 16px;
+    line-height: 1.50rem;
+    color: #19638d;
+}
+.div3 {
+    height: 44rem;
+    width: 100%;
+    position: absolute;
+    top: 132rem;
+    left: 0;
+}
+.div3 .heading {
+    color: #a5a6a8;
+    font-size: 24px;
+    position: absolute;
+    left: 40%;
+    top: 8rem;
+    text-transform: uppercase;
+}
+.div3 .pro {
+    height: 4rem;
+   border-radius: 50%;
+}
+.div3 .pro1 {
+    position: absolute;
+    left: 18rem;
+    top: 14rem;
+}
+.div3 .pro2 {
+    position: absolute;
+    left: 40.50rem;
+    top: 14rem;
+}
+.div3 .pro3 {
+    position:absolute;
+    right: 18rem;
+    top: 14rem;
+}
+.div3 .para {
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 1.50rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+.div3 .para1 {
+    position: absolute;
+    left: 11rem;
+    top: 22rem;
+}
+.div3 .para2 {
+    position: absolute;
+    left: 34rem;
+    top: 22rem;
+}
+.div3 .para3 {
+    position: absolute;
+    top: 22rem;
+    left: 56.50rem;
+}
+.div3 .head {
+    position: absolute;
+    top: 30rem;
+    color: rgba(0, 0, 0, 0.9);
+    left: 18rem;
+    font-size: 20px;
+}
+.div3 .head2 {
+    left: 40rem;
+}
+.div3 .head3 {
+    left: 63rem;
+}
+.div3 .own {
+    position: absolute;
+    top: 32rem;
+    left: 16rem;
+    color: rgba(0,0,0, 0.4);
+    font-size: 16px;
+
+    font-weight: 500;
+}
+.div3 .own2 {
+    left: 37.50rem;
+}
+.div3 .own3 {
+    left: 62rem;
+}
+.milk {
+    position: absolute;
+    top: 176rem;
+    height: 26rem;
+}
+.org {
+    position: absolute;
+    left: 20.50rem;
+    top: 176rem;
+    height: 26rem;
+    width: 22rem;
+}
+.cube {
+    position: absolute;
+    right: 0;
+    top: 176rem;
+    height: 26rem;
+    width: 22rem;
+}
+.cone {
+    position: absolute;
+    right: 21rem;
+    top: 176rem;
+    width: 22rem;
+    height: 26rem;
+}
+.footer {
+    top: 202rem; 
+    position: absolute;
+    left: 0;
+    height: 20rem;
+    width: 100%;
+    background-color: #90d4c5;
+}
+.footer .heads {
+    position: absolute;
+    font-size: 32px;
+    color: #2b7365;
+    top: 4rem;
+    left: 44%;
+}
+.footer .foot {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 9rem;
+    left: 40%;
+    gap: 50px;
+    color: lab(53.34% -24.66 0.97);
+}
+.footer .foot  li {
+    list-style: none;
+}
+.footer .foot li:hover {
+    cursor: pointer;
+    color: white;
+}
+.footer .img {
+    display: flex;
+    height: 1.30rem;
+    gap: 24px;
+    position:absolute;
+    top: 14rem;
+    left: 44%;
+    flex-direction: row;
+}
+.footer img:hover {
+    cursor: pointer;
+}
